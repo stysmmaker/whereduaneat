@@ -3,7 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<title>Where Duane At?</title>
+	<style>
+	.videoContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	iframe {
+	width: 100%;
+	height: 100%; 
+	}
+</style>
 </head>
 
-<body><div style="text-align:center;"><h1>Duane must be found.</h1><img src="duane.gif"></div></body>
+<body>
+<div class="videoContainer">
+<iframe id="ytplayer" type="text/html" width="100%" height="100%"
+src="https://www.youtube.com/embed/ogZXlId5ABs?autoplay=1&controls=0&loop=1&modestbranding=1&color=white&iv_load_policy=3"
+frameborder="0" allowfullscreen>
+</div></body>
 </html>
